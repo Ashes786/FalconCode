@@ -195,15 +195,15 @@ a.btn.dark:hover {
 }
 
 /* .bg-left-mobile {
-    display: none;
+    display: hidden;
 }
 
 .bg-right-mobile {
-    display: none;
+    display: hidden;
 } */
 
 /* animation */
-/* .bg-hero-left img {
+.bg-hero-left img {
     animation: move 1s forwards ease-in-out;
     transform: translateX(-100%);
 }
@@ -238,9 +238,9 @@ a.btn.dark:hover {
         transform: translateY(0);
         opacity: 1;
     }
-} */
+}
 
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
     .bg-hero-left,
     .bg-hero-right,
     nav ul,
@@ -310,4 +310,4 @@ a.btn.dark:hover {
         z-index: -100;
     }
 
-}
+} */
